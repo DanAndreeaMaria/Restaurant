@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Iovi Pizza</title>
+
+    <style>
+        * {
+            background-color: #FAF8ED;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .text-centered {
+            text-align: center;
+            padding: 10px;
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .align {
+            margin-left: 30px;
+        }
+
+        .align-color {
+            margin-left: 30px;
+            color: #3A4D39;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #739072;
+        }
+
+        a:visited {
+            color: #739072;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="header-img" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="header img" width="100%">
+        <h1 class="text-centered" style="color: #3A4D39;">Le Iovi Pizza</h1>
+
+        <nav>
+            <h2 class="text-centered"><a href="#menu">Menu</a></h2>
+            <h2 class="text-centered"><a href="#order-form">Order Form</a></h2>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2 class="text-centered">Pizza types</h2>
+            <article>
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pizza neapolitan" class="center">
+                <h3 class="text-centered">Pizza Neapolitan</h3>
+                <p class="text-centered">Pizza made with passion by an original recipe from Italy. With tomato sauce, mozzarella and basil straight from Italy. <br/><i>For special requests, the price may vary between $10 - $13.</i></p>
+            </article><br/>
+            <hr>
+            <article>
+                <img src="https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pizza mushrooms" class="center">
+                <h3 class="text-centered">Pizza with Mushrooms</h3>
+                <p class="text-centered">This pizza brings you an original taste of Pizza con Funghi. With fresh tomato sauce, mozzarella, mushrooms and onion.<br/><i>For special requests, the price may vary between $12 - $15.</i></p>
+            </article><br/>
+            <hr>
+            <article>
+                <img src="https://images.unsplash.com/photo-1490717064594-3bd2c4081693?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fresh pizza" class="center">
+                <h3 class="text-centered">Pizza Fresca</h3>
+                <p class="text-centered">If you want a fresh taste, this pizza is for you! Made with quality ingredients like mozzarella, cherry tomatoes, olive oil and basil.<br/><i>For special requests, the price may vary between $14 - $19.</i></p>
+            </article><br/>
+            <hr>
+            <article>
+                <img src="https://plus.unsplash.com/premium_photo-1667682942148-a0c98d1d70db?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pizza chorizo" class="center">
+                <h3 class="text-centered">Pizza Chorizo</h3>
+                <p class="text-centered">Pizza Chorizo is one of a kind. Made with tomato sauce, mozzarella, lots of chorizo and tomato slices.<br/><i>For special requests, the price may vary between $13 - $20.</i></p>
+            </article><br/>
+            <hr>
+            <article>
+                <img src="https://images.unsplash.com/photo-1586934729750-2e32c19c2320?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="special pizza" class="center">
+                <h3 class="text-centered">Special Pizza</h3>
+                <p class="text-centered">An exclusivist pizza with a special taste. Made with mozarella, pear slices and lots of gorgonzola cheese.<br/><i>For special requests, the price may vary between $13 - $20.</i></p>
+            </article><br/>
+            <hr>
+            <br>
+        </section>
+
+        <section id="order-form">
+            <h2 class="align-color">Place Your Order</h2>
+            <form class="align">
+                <h4>Choose your favourite pizza:</h4>
+                <label>Pizza Neapolitan: <input type="number" min="0" placeholder="Choose the quantity" /><br/><br/></label>
+                <label>Pizza with Mushrooms: <input type="number" min="0" placeholder="Choose the quantity" /><br/><br/></label>
+                <label>Pizza Fresca: <input type="number" min="0" placeholder="Choose the quantity" /><br/><br/></label>
+                <label>Pizza Chorizo: <input type="number" min="0" placeholder="Choose the quantity" /><br/><br/></label>
+                <label>Special Pizza: <input type="number" min="0" placeholder="Choose the quantity" /><br/><br/></label>            
+                
+                <h4>Choose an extra topping:</h4>
+                <label><input type="checkbox"/> Mozzarella</label><br/><br/>
+                <label><input type="checkbox"/> Parmesan</label><br/><br/>
+                <label><input type="checkbox"/> Salami</label><br/><br/>
+                <br/>
+                <label><b>Special requests:</b></label><br/><br/>
+                <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter your special requests here!"></textarea>
+                <br/><br/>
+
+                <h4>Choose an additional sauce:</h4>
+                <label><input type="checkbox"/>Sweet Sauce</label><br/><br/>
+                <label><input type="checkbox"/>Chilli Sauce</label><br/><br/>
+                <label><input type="checkbox"/>Greek Sauce</label><br/><br/>
+                <br/>
+                <label><b>Special requests:</b></label><br/><br/>
+                <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter your special requests here!"></textarea>
+                <br/><br/>
+                <input type="submit" value="Go To Checkout" />
+            </form>
+            <br/>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Made with ❤️ by @Andreea</p>
+    </footer>
+    
+</body>
+</html>
