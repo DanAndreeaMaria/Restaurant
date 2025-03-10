@@ -12,18 +12,18 @@ A simple restaurant webpage for "Le Iovi Pizza", built using basic HTML and CSS.
 
 ## Technologies used
 
-* HTML5
-* CSS3
+* **HTML5**
+* **CSS3**
 
 ## Installation
 
 1. Clone the repository:
-  git clone https://github.com/DanAndreeaMaria/Restaurant
+  ```git clone https://github.com/DanAndreeaMaria/Restaurant```
 
 2. Navigate to the project folder:
-   cd le-iovi-pizza
+   ```cd le-iovi-pizza```
 
-3. Open index.html in your browser
+3. Open ```index.html``` in your browser
 
 ## Usage
 
@@ -31,7 +31,4 @@ A simple restaurant webpage for "Le Iovi Pizza", built using basic HTML and CSS.
 * Use the order form to select quantities, add extra toppings and choose sauces;
 * Submit your order by clicking the checkout button.
 
-## File structure
 
-le-iovi-pizza/ <br>
-│── index.html  # Main HTML file <br>
