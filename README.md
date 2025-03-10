@@ -23,7 +23,7 @@ A splime restaurant webpage for "Le Iovi Pizza", built using basic HTML and CSS.
 2. Navigate to the project folder:
    cd le-iovi-pizza
 
-3. Open index.html in your browser.
+3. Open index.html in your browser
 
 ## Usage
 
