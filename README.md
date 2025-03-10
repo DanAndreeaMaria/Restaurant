@@ -1,6 +1,6 @@
 # Restaurant #
 
-A splime restaurant webpage for "Le Iovi Pizza", built using basic HTML and CSS.
+A simple restaurant webpage for "Le Iovi Pizza", built using basic HTML and CSS.
 
 ## Features
 
